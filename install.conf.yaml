@@ -1,0 +1,24 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+
+- clean: ['~']
+
+- link:
+    ~/.profile: profile
+    ~/.bashrc: bashrc
+    ~/.gitconfig: gitconfig
+    ~/.zshrc: zshrc
+    ~/.zprezto: zprezto
+    ~/.zlogin: zlogin
+    ~/.zprofile: zprofile
+    ~/.zlogout: zlogout
+    ~/.zpreztorc: zpreztorc
+    ~/.zshenv: zshenv
+    ~/.zshrc: zshrc
+
+
+
